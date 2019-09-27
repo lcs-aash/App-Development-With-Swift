@@ -15,9 +15,8 @@ print("My name is Rori Ash")
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
-
+print ("When the evening shadows and the stars appear")
+print ("And there is no one to dry your tears")
 /*:
 
  _Copyright © 2018 Apple Inc._
