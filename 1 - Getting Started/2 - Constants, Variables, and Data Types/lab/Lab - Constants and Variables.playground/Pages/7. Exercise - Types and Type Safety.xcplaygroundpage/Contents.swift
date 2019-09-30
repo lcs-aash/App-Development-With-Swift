@@ -8,7 +8,7 @@ var SecondDecimal = 13.4
 /*:
  Declare a variable called `trueOrFalse` and give it a boolean value. Try to assign it to `firstDecimal` like so: `firstDecimal = trueOrFalse`. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
  */
-var TrueOrFalse = trueOrFalse
+var TrueOrFalse = "True"
 print("One is a double value and the other is a boolean")
 /*:
  Finally, declare a variable with a whole number value. Then try to assign it to `firstDecimal`. Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
