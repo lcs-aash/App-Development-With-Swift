@@ -3,14 +3,21 @@
  
  Create a `city` constant and assign it a string literal representing your home city. Then create a `state` constant and assign it a string literal representing your home state. Finally, create a `home` constant and use string concatenation to assign it a string representing your home city and state (i.e. Portland, Oregon). Print the value of `home`.
  */
-
-
+let city = "Buckhorn"
+let province = "Ontario"
+let home = city + ", " + province
 /*:
  Use the compound assignment operator (`+=`) to add `home` to `introduction` below. Print the value of `introduction`.
  */
 var introduction = "I live in"
 
-
+//Example: WHen concatenation is not enough
+let declaration = "My favourite number is "
+let number = 10
+let sentence = declaration + number
+// Can not use the concatenation to mash strings and integers
+let sentence = "\declaration \(number)"
+print(sentence)
 /*:
  Declare a `name` constant and assign it your name as a string literal. Then declare an `age` constant and give it your current age as an `Int`. Then print the following phrase using string interpolation:
  
