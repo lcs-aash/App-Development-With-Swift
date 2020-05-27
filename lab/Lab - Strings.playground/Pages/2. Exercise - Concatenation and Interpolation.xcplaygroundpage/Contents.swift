@@ -16,7 +16,7 @@ let declaration = "My favourite number is "
 let number = 10
 let sentence = declaration + number
 // Can not use the concatenation to mash strings and integers
-let sentence = "\declaration \(number)"
+let sentence = \declaration \(number)
 print(sentence)
 /*:
  Declare a `name` constant and assign it your name as a string literal. Then declare an `age` constant and give it your current age as an `Int`. Then print the following phrase using string interpolation:
@@ -25,6 +25,7 @@ print(sentence)
  
  Insert `name` where indicated, and insert a mathematical expression that evaluates to your current age plus one where indicated.
  */
-
-
+let name = "Rori"
+let age = 16
+print{my }
 //: [Previous](@previous)  |  page 2 of 5  |  [Next: App Exercise - Notifications](@next)

@@ -20,7 +20,11 @@ import Foundation
 let userName = "StepChallenger"
 let searchName = "step"
 
-
+if userName.lowercased().contains(searchName) {
+    print("match")
+} else {
+    print("no match")
+}
 /*:
 
  _Copyright © 2018 Apple Inc._
